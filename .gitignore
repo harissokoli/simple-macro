@@ -1,0 +1,10 @@
+# Build output and runtime files
+*.exe
+crash.log
+
+# Personal macros stay local; only the template is tracked
+macros/*
+!macros/Example.ps1
+
+# Superseded by README.md
+README.txt
