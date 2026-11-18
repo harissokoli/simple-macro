@@ -1,5 +1,10 @@
 # SimpleMacro
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Platform: Windows](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6)
+![PowerShell 5.1](https://img.shields.io/badge/PowerShell-5.1-5391FE)
+![.NET Framework](https://img.shields.io/badge/.NET%20Framework-C%23-512BD4)
+
 A small Windows tray application that hosts PowerShell macros. Each macro is a
 plain `.ps1` file dropped into the `macros` folder; the manager loads it, polls
 it on a 10 ms timer, and lets you enable or disable it from a simple UI.
@@ -93,6 +98,7 @@ macros/               your *.ps1 macros (Example.ps1 is a disabled template)
 Build-EXE.bat/.ps1    compile to SimpleMacro.exe
 Run.bat               start the built EXE
 Diagnostics.bat/.ps1  print PowerShell / assembly info for build problems
+LICENSE               MIT license
 ```
 
 ## Limitations
@@ -108,3 +114,7 @@ Diagnostics.bat/.ps1  print PowerShell / assembly info for build problems
 This tool synthesizes keyboard and mouse input. Many online games and anti-cheat systems prohibit
 macros or automation and may ban accounts for using them. You are responsible for following the rules
 of any software you use it with.
+
+## License
+
+Released under the [MIT License](LICENSE).
